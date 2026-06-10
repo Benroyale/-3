@@ -1,0 +1,11 @@
+# не коммитим сгенерированные данные, но папки сохраняем через .gitkeep
+data/*.csv
+data/*.html
+local_data/*.csv
+
+# node
+node_modules/
+
+# системное
+.DS_Store
+.claude/
