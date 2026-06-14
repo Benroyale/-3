@@ -23,7 +23,7 @@ run_generator() {
 
 create_local_data() {
     mkdir -p "$PROJECT_DIR/local_data"
-    python3 ./generator/generate.py "$PROJECT_DIR/local_data/data.csv"
+    python3 ./generator/generate.py "$PROJECT_DIR/local_data"
 }
 
 build_reporter() {

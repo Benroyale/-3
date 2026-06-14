@@ -1,12 +1,7 @@
 {
-  "name": "data-reporter",
+  "name": "reporter",
   "version": "1.0.0",
-  "description": "Читает CSV и формирует HTML-отчёт",
-  "main": "report.js",
-  "scripts": {
-    "start": "node report.js"
-  },
   "dependencies": {
-    "csv-parse": "^5.5.6"
+    "csv-parse": "^5.5.0"
   }
 }

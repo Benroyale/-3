@@ -4,4 +4,4 @@ WORKDIR /app
 
 COPY generate.py .
 
-CMD ["python", "generate.py", "/data/data.csv"]
+CMD ["python", "generate.py", "/data"]
